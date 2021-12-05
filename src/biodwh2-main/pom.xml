@@ -229,5 +229,10 @@
             <version>${junit-version}</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>de.unibi.agbi.biodwh2</groupId>
+            <artifactId>biodwh2-omim</artifactId>
+            <version>0.1</version>
+        </dependency>
     </dependencies>
 </project>

@@ -39,6 +39,8 @@ public enum IdentifierType {
     ICD10("ICD10"),
     ICD11("ICD11"),
     INTERNATIONAL_NONPROPRIETARY_NAMES("INN"),
+    ENTREZ_GENE_ID("Entrez Gene ID"),
+
     /**
      * Iranian Registry of Clinical Trials (IRCT) https://en.irct.ir
      */
