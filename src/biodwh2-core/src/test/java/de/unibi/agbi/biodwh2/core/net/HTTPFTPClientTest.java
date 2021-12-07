@@ -47,7 +47,7 @@ class HTTPFTPClientTest {
         String source = getSourceFromResources("test_ftp_directory_pre2.html");
         HTTPFTPClient client = new HTTPFTPClient("http://ftp.ebi.ac.uk/");
         HTTPFTPClient.Entry[] entries = client.parseWebSource(
-                "pub/databases/opentargets/platform/latest/output/de.unibi.agbi.biodwh2.omim.etl/json/molecule/", source);
+                "pub/databases/opentargets/platform/latest/output/etl/json/molecule/", source);
         assertNotNull(entries);
         assertEquals(14, entries.length);
         assertEquals("_SUCCESS", entries[0].name);
